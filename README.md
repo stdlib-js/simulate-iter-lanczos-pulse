@@ -32,10 +32,14 @@ A Lanczos pulse waveform is represented by the following equation
 
 <!-- <equation class="equation" label="eq:lanczos_pulse_waveform" align="center" raw="f(t; T, \tau, a, \varphi) = \begin{cases}\operatorname{sinc}\biggl( \frac{2(t-\varphi)}{\tau-1} - 1\biggr) & (t-\varphi) \mod T < \tau \\ 0 & \textrm{otherwise} \end{cases}" alt="Equation for a Lanczos pulse waveform."> -->
 
-<div class="equation" align="center" data-raw-text="f(t; T, \tau, a, \varphi) = \begin{cases}\operatorname{sinc}\biggl( \frac{2(t-\varphi)}{\tau-1} - 1\biggr) &amp; (t-\varphi) \mod T < \tau \\ 0 &amp; \textrm{otherwise} \end{cases}" data-equation="eq:lanczos_pulse_waveform">
+```math
+f(t; T, \tau, a, \varphi) = \begin{cases}\operatorname{sinc}\biggl( \frac{2(t-\varphi)}{\tau-1} - 1\biggr) & (t-\varphi) \mod T < \tau \\ 0 & \textrm{otherwise} \end{cases}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="f(t; T, \tau, a, \varphi) = \begin{cases}\operatorname{sinc}\biggl( \frac{2(t-\varphi)}{\tau-1} - 1\biggr) &amp; (t-\varphi) \mod T < \tau \\ 0 &amp; \textrm{otherwise} \end{cases}" data-equation="eq:lanczos_pulse_waveform">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@4fa8f0c0d831199775879b44805649a741cf37ce/lib/node_modules/@stdlib/simulate/iter/lanczos-pulse/docs/img/equation_lanczos_pulse_waveform.svg" alt="Equation for a Lanczos pulse waveform.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -321,8 +325,8 @@ while ( true ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/simulate/iter/pulse`][@stdlib/simulate/iter/pulse]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a pulse waveform.</span>
--   <span class="package-name">[`@stdlib/simulate/iter/periodic-sinc`][@stdlib/simulate/iter/periodic-sinc]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a periodic sinc waveform.</span>
+-   <span class="package-name">[`@stdlib/simulate-iter/pulse`][@stdlib/simulate/iter/pulse]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a pulse waveform.</span>
+-   <span class="package-name">[`@stdlib/simulate-iter/periodic-sinc`][@stdlib/simulate/iter/periodic-sinc]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a periodic sinc waveform.</span>
 
 </section>
 
@@ -381,7 +385,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
