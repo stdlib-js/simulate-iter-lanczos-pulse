@@ -71,7 +71,7 @@ where `T` is the pulse period, `τ` is the pulse duration, `a` is the amplitude,
 ## Usage
 
 ```javascript
-import iterLanczosPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-lanczos-pulse@esm/index.mjs';
+import iterLanczosPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-lanczos-pulse@v0.2.1-esm/index.mjs';
 ```
 
 #### iterLanczosPulse( \[options] )
@@ -282,7 +282,7 @@ var bool = it.next().done;
 <body>
 <script type="module">
 
-import iterLanczosPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-lanczos-pulse@esm/index.mjs';
+import iterLanczosPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-lanczos-pulse@v0.2.1-esm/index.mjs';
 
 // Create an iterator:
 var opts = {
